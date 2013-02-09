@@ -33,3 +33,22 @@ function snappy_uncompress($data);
 ```
 
 That's all so far, stream wrappers to come ...
+
+Install
+=======
+
+To install this extension you must have the snappy library and headers installed on your system. 
+
+Clone this respository into ext/snappy in your build tree, and execute the following ( or something very like it ):
+
+```
+./buildconf --force
+./configure --with-snappy=/usr/lib64
+make
+```
+
+To run the snappy test to make sure everything is working execute the following:
+
+```
+TEST_PHP_EXECUTABLE=sapi/cli/php sapi/cli/php run-tests.php ext/snappy
+```
