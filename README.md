@@ -62,9 +62,10 @@ The following are the results of comparing zlib and snappy using the data includ
 
 ```
 COMPRESS:
-SNAPPY: 3306 bytes in 0.000049 seconds
-ZLIB: 1855 bytes in 0.000326 seconds
+SNAPPY: 3306 bytes in 0.000051 seconds
+ZLIB: 1855 bytes in 0.000322 seconds
 UNCOMPRESS:
-SNAPPY: 3306 bytes in 0.000015 seconds
-ZLIB: 1855 bytes in 0.000073 seconds
+SNAPPY: 9503 bytes in 0.000015 seconds
+ZLIB: 9503 bytes in 0.000069 seconds
+
 ```
