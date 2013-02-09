@@ -54,3 +54,17 @@ TEST_PHP_EXECUTABLE=sapi/cli/php sapi/cli/php run-tests.php ext/snappy
 ```
 
 Note: phpize can also be used, if you like that sort of thing ...
+
+Expect
+======
+
+The following are the results of comparing zlib and snappy using the data included in the test file with this extension:
+
+```
+COMPRESS:
+SNAPPY: 3306 bytes in 0.000049 seconds
+ZLIB: 1855 bytes in 0.000326 seconds
+UNCOMPRESS:
+SNAPPY: 3306 bytes in 0.000015 seconds
+ZLIB: 1855 bytes in 0.000073 seconds
+```
