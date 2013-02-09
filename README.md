@@ -52,3 +52,5 @@ To run the snappy test to make sure everything is working execute the following:
 ```
 TEST_PHP_EXECUTABLE=sapi/cli/php sapi/cli/php run-tests.php ext/snappy
 ```
+
+Note: phpize can also be used, if you like that sort of thing ...
